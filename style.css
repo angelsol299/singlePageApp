@@ -1,0 +1,36 @@
+#uno {
+  background-color: D8EDFF;
+  height: 300px;
+  padding-top: 100px;
+}
+
+#icon1 {
+  font-size: 200px;
+  padding-top: 30px;
+  color: lightblue;
+  padding-bottom: 30px;
+}
+
+.dos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: ECECEC;
+}
+#list1 {
+  padding-right: 50px;
+}
+.text1 {
+  font-size: 20px;
+}
+
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+@media only screen and (max-width: 600px) {
+  .text1 {
+    font-size: 25px;
+  }
+}
